@@ -1,4 +1,5 @@
 import BookCard from "@/app/components/shared/BookCard";
+import Category from "@/app/components/shared/Category";
 
 const AllBooksPage = async () => {
   const res = await fetch(
@@ -12,6 +13,8 @@ const AllBooksPage = async () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 my-15">
         <div className="col-span-1 mt-2 font-bold text-2xl bg-amber-400">
           Cattagory
+
+          <Category/>
         </div>
         <div className="col-span-4 ">
           <div className="p-5 mt-2 mb-4 bg-[#763d22] text-[#fdf7eb]">
