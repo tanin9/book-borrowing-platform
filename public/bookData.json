@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "গোরা",
+    "author": "রবীন্দ্রনাথ ঠাকুর",
+    "description": "A powerful novel exploring identity, religion, and nationalism in colonial Bengal.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://i.ibb.co.com/KHDCfgQ/gora.jpg"
+  },
+  {
+    "id": 2,
+    "title": "আনন্দমঠ",
+    "author": "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+    "description": "A historical novel set during the Sannyasi Rebellion, inspiring generations with patriotic fervour.",
+    "category": "History",
+    "available_quantity": 5,
+    "image_url": "https://i.ibb.co.com/9HXkZMYj/anondomoth.jpg"
+  },
+  {
+    "id": 3,
+    "title": "পথের পাঁচালী",
+    "author": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+    "description": "A timeless coming-of-age story set in rural Bengal, rich with human emotion and nature.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://i.ibb.co.com/wFkCHbZ0/pother-pachali.jpg"
+  },
+  {
+    "id": 4,
+    "title": "একাত্তরের দিনগুলি",
+    "author": "জাহানারা ইমাম",
+    "description": "A poignant diary recounting the Liberation War of Bangladesh in 1971 through a mother's eyes.",
+    "category": "History",
+    "available_quantity": 7,
+    "image_url": "https://i.ibb.co.com/qY99dFkm/akattorer-dinguli.png"
+  },
+  {
+    "id": 5,
+    "title": "হযবরল",
+    "author": "সুকুমার রায়",
+    "description": "A whimsical adventure story in the vein of Alice in Wonderland, full of absurd characters and comic chaos.",
+    "category": "Kids",
+    "available_quantity": 10,
+    "image_url": "https://i.ibb.co.com/cSBGzBh4/ha-ja-bo-ro-lo.jpg"
+  },
+  {
+    "id": 6,
+    "title": "বাংলাদেশের ইতিহাস",
+    "author": "সুনীতিভূষণ কানুনগো",
+    "description": "A comprehensive scholarly account of the history of Bangladesh from ancient times to independence.",
+    "category": "History",
+    "available_quantity": 4,
+    "image_url": "https://i.ibb.co.com/27S9vDws/bangla-history.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "description": "An investigation into why certain civilisations came to dominate the world using geography, biology, and history.",
+    "category": "History",
+    "available_quantity": 8,
+    "image_url": "https://i.ibb.co.com/DPNshB7Z/guns-germs-and-steel.jpg"
+  },
+  {
+    "id": 8,
+    "title": "ফেলুদা সমগ্র",
+    "author": "সত্যজিৎ রায়",
+    "description": "The complete collection of detective adventures featuring the brilliant sleuth Feluda across Bengal.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url": "https://i.ibb.co.com/67QzZSBK/feluda.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "A revolutionary look at evolution from the gene's point of view, introducing the concept of the meme to the world.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://i.ibb.co.com/93VymRLd/the-selfish-gene.jpg"
+  },
+  {
+    "id": 10,
+    "title": "গল্পমালা",
+    "author": "রবীন্দ্রনাথ ঠাকুর",
+    "description": "A collection of short stories and tales by Rabindranath Tagore adapted and simplified for young readers.",
+    "category": "Kids",
+    "available_quantity": 9,
+    "image_url": "https://i.ibb.co.com/YBgLLZHZ/golpomala.jpg"
+  },
+  {
+    "id": 11,
+    "title": "আমার দেখা রাজনীতির পঞ্চাশ বছর",
+    "author": "আবুল মনসুর আহমদ",
+    "description": "A memoir spanning fifty years of political history in Bengal and Bangladesh by an eyewitness journalist.",
+    "category": "History",
+    "available_quantity": 6,
+    "image_url": "https://i.ibb.co.com/svqMc6dg/history.jpg"
+  },
+  {
+    "id": 12,
+    "title": "আবোল তাবোল",
+    "author": "সুকুমার রায়",
+    "description": "A legendary collection of nonsense rhymes and absurdist poems beloved by children for over a century.",
+    "category": "Kids",
+    "available_quantity": 15,
+    "image_url": "https://i.ibb.co.com/9HGCzxjZ/abol-tabol-sukumar-roy.jpg"
+  }
+]

@@ -8,8 +8,8 @@ const Navbar = () => {
 
 
   return (
-    <div className="container mx-auto">
-      <div className="navbar bg-[#e37b58] shadow-sm px-5">
+    <div className="container mx-auto sticky top-0 z-50">
+      <div className="navbar bg-[#e37b58] shadow-sm px-5  ">
         <div className="navbar-start">
           <div className="dropdown">
             <div
