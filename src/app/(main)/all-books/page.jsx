@@ -6,7 +6,7 @@ import { use } from "react";
 
 const AllBooksPage = () => {
     
-    console.log(books,"books");
+   
     
   return (
       <div className="container mx-auto ">
