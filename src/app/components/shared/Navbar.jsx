@@ -2,7 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/assets/gift.png";
 import Loginlogo from "@/assets/loginlogo.jpg";
+import NavLink from "./NavLink";
 const Navbar = () => {
+
+
+
   return (
     <div className="container mx-auto">
       <div className="navbar bg-[#e37b58] shadow-sm px-5">
@@ -34,14 +38,14 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Home</a>
+                <NavLink href={"/"}>Home</NavLink>
               </li>
               <li>
-                <a>All Books</a>
+                <NavLink href={"/all-books"}>All Books</NavLink>
               </li>
 
               <li>
-                <a>My Profile</a>
+                <NavLink href={"/my-profile"}>My Profile</NavLink>
               </li>
             </ul>
           </div>
@@ -60,14 +64,14 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-[#fdf7eb]">
             <li>
-              <a>Home</a>
+              <NavLink href={"/"}>Home</NavLink>
             </li>
             <li>
-              <a>All Books</a>
+              <NavLink href={"/all-books"}>All Books</NavLink>
             </li>
 
             <li>
-              <a>My Profile</a>
+              <NavLink href={"/login"}>My Profile</NavLink>
             </li>
           </ul>
         </div>
