@@ -11,14 +11,14 @@ const Services = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mx-auto ">
-        <div className="hidden col-span-1 h-[50vh] w-[30vh]  lg:flex justify-center items-center mx-auto "></div>
-
-        <div className="col-span-1 h-[50vh] w-[30vh] text-[#fdf7eb] bg-amber-700 rounded-2xl flex flex-col justify-center items-center mx-auto p-5">
-          <figure className=" place-items-center rounded-2xl">
+      <div className="flex flex-col lg:flex-row gap-10 mx-auto ">
+        <div className="  text-[#fdf7eb] bg-amber-700 rounded-2xl flex flex-col justify-center items-center mx-auto p-10">
+          <figure className=" place-items-center rounded-2xl ">
             <Image
               src={Library}
               alt="Profile Picture"
+              height={200}
+              width={200}
             />
           </figure>
 
@@ -28,11 +28,13 @@ const Services = () => {
             you can read and learn easily.
           </p>
         </div>
-        <div className="col-span-1 h-[50vh] w-[30vh] text-[#fdf7eb] bg-amber-700 rounded-2xl flex flex-col justify-center items-center mx-auto p-5">
+        <div className="  text-[#fdf7eb] bg-amber-700 rounded-2xl flex flex-col justify-center items-center mx-auto p-10">
           <figure className=" place-items-center rounded-2xl">
             <Image
               src={HomeLibrary}
               alt="Profile Picture"
+              height={200}
+              width={200}
             />
           </figure>
 
@@ -42,11 +44,13 @@ const Services = () => {
             easy and convenient reading.
           </p>
         </div>
-        <div className="col-span-1 h-[50vh] w-[30vh]  text-[#fdf7eb] bg-amber-700 rounded-2xl flex flex-col justify-center items-center mx-auto p-5">
+        <div className="     text-[#fdf7eb] bg-amber-700 rounded-2xl flex flex-col justify-center items-center mx-auto p-10">
           <figure className=" place-items-center rounded-2xl">
             <Image
               src={MobileLibrary}
               alt="Profile Picture"
+              height={200}
+              width={200}
             />
           </figure>
 
@@ -56,8 +60,6 @@ const Services = () => {
             on-the-go mobile library service.
           </p>
         </div>
-
-        <div className="hidden col-span-1 h-[50vh] w-[30vh]  lg:flex justify-center items-center mx-auto"></div>
       </div>
     </div>
   );
