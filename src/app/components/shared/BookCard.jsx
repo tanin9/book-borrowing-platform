@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+ 
 
 const BookCard = ({ book }) => {
   // console.log(book, "books");
@@ -19,11 +19,11 @@ const BookCard = ({ book }) => {
           {book.category}
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center px-4 ">
+      <div className="flex flex-col justify-center items-center px-3 ">
         <p className="text-[#763d22] text-2xl font-bold"> {book.title}</p>
         <p className="text-md"> {book.author}</p>
       </div>
-      <Link href={"/booksDetails/{book.id}"}>
+      <Link href={`/booksDetails/${book.id}`}>
         <button className="btn bg-[#763d22] text-[#fdf7eb]">
           View Details
         </button>
