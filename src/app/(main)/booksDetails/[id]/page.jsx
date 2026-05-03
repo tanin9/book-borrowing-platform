@@ -1,8 +1,8 @@
  
-const BooksDetailsPage = () => {
+const BooksDetailsPage = ( ) => {
     return (
         <div className="container mx-auto">
-            BookDetails Page
+            BookDetails Page  
         </div>
     );
 };

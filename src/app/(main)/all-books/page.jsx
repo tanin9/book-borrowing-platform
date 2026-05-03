@@ -1,8 +1,4 @@
-import Image from "next/image";
-import BookRent from "@/assets/bookrent.jpg";
-import Link from "next/link";
-import { use } from "react";
-
+ 
 
 const AllBooksPage = () => {
     
