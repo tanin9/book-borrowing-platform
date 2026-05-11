@@ -1,4 +1,5 @@
-import Image from "next/image";
+import BackButton from "@/app/components/shared/BackButton";
+import Image from "next/image"; 
 const BooksDetailsPage = async ({ params }) => {
   const { id } = await params;
   const res = await fetch(
@@ -8,6 +9,7 @@ const BooksDetailsPage = async ({ params }) => {
   const book = books.find((b) => b.id == id);
   //   console.log(book);
 
+
   return (
     <div className="container mx-auto">
       <div>
@@ -15,8 +17,8 @@ const BooksDetailsPage = async ({ params }) => {
           <p className="text-4xl font-bold text-[#763d22] p-4">Details page</p>
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-12 shadow-2xl m-6 " >
-          <div >
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-12 shadow-2xl m-6 ">
+          <div>
             <Image
               src={book.image_url}
               alt={book.title}
@@ -34,6 +36,9 @@ const BooksDetailsPage = async ({ params }) => {
             </div>
 
             <p className="text-xl">{book.description}</p>
+            
+             <BackButton/>
+        
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
- 
 
 const BookCard = ({ book }) => {
   // console.log(book, "books");
@@ -13,7 +12,7 @@ const BookCard = ({ book }) => {
           alt={book.title}
           height={300}
           width={200}
-          className=" rounded-lg"
+          className="rounded-lg "
         />
         <div className="badge badge-soft bg-[#763d22b3] text-[#fdf7eb] absolute top-5 right-5">
           {book.category}
