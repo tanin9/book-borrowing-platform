@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Found from "@/assets/notFound.jpg";
 import Link from "next/link";
